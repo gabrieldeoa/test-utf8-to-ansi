@@ -1,0 +1,22 @@
+{
+  "name": "test-utf8-to-ansi",
+  "version": "1.0.0",
+  "description": "testing utf8 to ansi",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gabrieldeoa/test-utf8-to-ansi.git"
+  },
+  "author": "Gabriel Araujo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gabrieldeoa/test-utf8-to-ansi/issues"
+  },
+  "homepage": "https://github.com/gabrieldeoa/test-utf8-to-ansi#readme",
+  "dependencies": {
+    "utf8-to-ansi": "^1.0.3"
+  }
+}
