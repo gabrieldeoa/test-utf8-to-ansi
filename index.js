@@ -1,5 +1,8 @@
 const { utf8ToAnsi } = require("utf8-to-ansi");
-const utf8 = "integração";
-const ansi = utf8ToAnsi(utf8);
+const createFile = require("./src/createFile");
 
-console.log(ansi);
+const test = "integração";
+createFile("test.xml", test, "latin1");
+
+const ansi = utf8ToAnsi(test);
+createFile("testAnsi.xml", ansi);
